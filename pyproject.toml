@@ -3,7 +3,7 @@ authors = [{name = "harm-nomden-sweco", email = "harm.nomden@sweco.nl"}]
 name = "WRIJ_RR_Unpaved_methode"
 requires-python = "==3.11.*"
 version = "0.1.0"
-dependencies = ["hydrolib==0.5.0"]
+dependencies = ["hydrolib==0.5.0", "hkvsobekpy>=1.5,<2"]
 # dependencies = ["hydrolib==0.5.0", "hkvsobekpy>=1.5,<2"]
 
 [build-system]
