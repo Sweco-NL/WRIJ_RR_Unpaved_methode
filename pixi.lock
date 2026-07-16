@@ -67,6 +67,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/packaging-26.2-pyhc364b38_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/partd-1.4.2-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/platformdirs-4.10.0-pyhcf101f3_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/plotly-6.8.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/plum-dispatch-2.9.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pooch-1.9.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/poppler-data-0.4.12-hd8ed1ab_0.conda
@@ -1232,6 +1233,22 @@ packages:
   run_exports: {}
   size: 26308
   timestamp: 1779972894916
+- conda: https://conda.anaconda.org/conda-forge/noarch/plotly-6.8.0-pyhd8ed1ab_0.conda
+  sha256: 4fb6cf23ca322b45f7dafb095bf42192f9ee85b18184fc4a1f82ae6a962dd1b0
+  md5: 499b2e5cc7cf18761cfd20d6fb837f48
+  depends:
+  - narwhals >=1.15.1
+  - packaging
+  - python >=3.10
+  constrains:
+  - ipywidgets >=7.6
+  license: MIT
+  license_family: MIT
+  purls:
+  - pkg:pypi/plotly?source=hash-mapping
+  run_exports: {}
+  size: 4119420
+  timestamp: 1780554856380
 - conda: https://conda.anaconda.org/conda-forge/noarch/plum-dispatch-2.9.0-pyhd8ed1ab_0.conda
   sha256: cac00838817971ab0de335360435d06848a6307324076c6edadfa0490ddb7f53
   md5: 77d49f8df60341645e6b81bd990afbc6
